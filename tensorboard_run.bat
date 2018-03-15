@@ -1,0 +1,1 @@
+tensorboard --logdir=run1:D:\Github\lasthope\tb --port 9966
