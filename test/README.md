@@ -1,1 +1,0 @@
-Place test set of jpg files there

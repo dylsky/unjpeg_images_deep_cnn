@@ -1,1 +1,0 @@
-There will be stored compressed jpg images

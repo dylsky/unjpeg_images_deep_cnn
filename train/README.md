@@ -1,1 +1,0 @@
-Place train set of jpg files there

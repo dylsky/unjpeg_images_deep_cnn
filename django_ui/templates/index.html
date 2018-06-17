@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Deep CNN experiment</title>
+</head>
+<body>
+<table>
+    <tr id="head">
+        <td>
+            <h3>Глубокая сверточная нейронная сеть</h3>
+        </td>
+    </tr>
+    <form action="/run" enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        <tr>
+            <td> Путь к нейросетевому пакету:</td>
+            <td> <input type="file" name="nn_path"></td>
+        </tr>
+        <tr>
+            <td> Путь к изображению:</td>
+            <td> <input type="file" name="image_path"></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Запустить">
+            </td>
+        </tr>
+    </form>
+</table>
+</body>
+</html>
